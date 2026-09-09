@@ -31,7 +31,7 @@ export const PRODUCTS_DATA: Product[] = [
       weights: '620 g por bota (Talla 27)'
     },
     sizes: ['24', '25', '26', '27', '28', '29', '30', '31'],
-    mercadoLibreUrl: 'https://listado.mercadolibre.com.mx/botas-industriales-magno-boots',
+    mercadoLibreUrl: 'https://www.mercadolibre.com.mx/pagina/mb4',
     flamundialUrl: 'https://flamundial.com/collections/magno-boots',
     guicomUrl: 'https://guicom.com.mx/producto-tag/magno-boots',
     rating: 4.9,
@@ -63,7 +63,7 @@ export const PRODUCTS_DATA: Product[] = [
       weights: '710 g por bota (Talla 27)'
     },
     sizes: ['23', '24', '25', '26', '27', '28', '29', '30'],
-    mercadoLibreUrl: 'https://listado.mercadolibre.com.mx/botas-industriales-magno-boots',
+    mercadoLibreUrl: 'https://www.mercadolibre.com.mx/pagina/mb4',
     flamundialUrl: 'https://flamundial.com/collections/magno-boots',
     guicomUrl: 'https://guicom.com.mx/producto-tag/magno-boots',
     rating: 4.8,
@@ -95,7 +95,7 @@ export const PRODUCTS_DATA: Product[] = [
       weights: '740 g por bota (Talla 27)'
     },
     sizes: ['25', '26', '27', '28', '29', '30', '31'],
-    mercadoLibreUrl: 'https://listado.mercadolibre.com.mx/botas-industriales-magno-boots',
+    mercadoLibreUrl: 'https://www.mercadolibre.com.mx/pagina/mb4',
     flamundialUrl: 'https://flamundial.com/collections/magno-boots',
     guicomUrl: 'https://guicom.com.mx/producto-tag/magno-boots',
     rating: 5.0,
@@ -127,7 +127,7 @@ export const PRODUCTS_DATA: Product[] = [
       weights: '530 g por bota (Talla 27)'
     },
     sizes: ['24', '25', '26', '27', '28', '29', '30'],
-    mercadoLibreUrl: 'https://listado.mercadolibre.com.mx/botas-industriales-magno-boots',
+    mercadoLibreUrl: 'https://www.mercadolibre.com.mx/pagina/mb4',
     flamundialUrl: 'https://flamundial.com/collections/magno-boots',
     guicomUrl: 'https://guicom.com.mx/producto-tag/magno-boots',
     rating: 4.9,
@@ -159,7 +159,7 @@ export const PRODUCTS_DATA: Product[] = [
       weights: '590 g por bota (Talla 27)'
     },
     sizes: ['24', '25', '26', '27', '28', '29', '30', '31'],
-    mercadoLibreUrl: 'https://listado.mercadolibre.com.mx/botas-industriales-magno-boots',
+    mercadoLibreUrl: 'https://www.mercadolibre.com.mx/pagina/mb4',
     flamundialUrl: 'https://flamundial.com/collections/magno-boots',
     guicomUrl: 'https://guicom.com.mx/producto-tag/magno-boots',
     rating: 4.8,
@@ -191,7 +191,7 @@ export const PRODUCTS_DATA: Product[] = [
       weights: '820 g por bota (Talla 27)'
     },
     sizes: ['25', '26', '27', '28', '29', '30'],
-    mercadoLibreUrl: 'https://listado.mercadolibre.com.mx/botas-industriales-magno-boots',
+    mercadoLibreUrl: 'https://www.mercadolibre.com.mx/pagina/mb4',
     flamundialUrl: 'https://flamundial.com/collections/magno-boots',
     guicomUrl: 'https://guicom.com.mx/producto-tag/magno-boots',
     rating: 4.9,

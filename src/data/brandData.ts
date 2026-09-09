@@ -17,7 +17,7 @@ export const COMPANY_INFO = {
   socials: {
     facebook: 'https://www.facebook.com/p/MAGNO-BOOTS-100063699570749/?locale=es_LA',
     instagram: 'https://www.instagram.com/magno_boots/',
-    mercadoLibre: 'https://listado.mercadolibre.com.mx/botas-industriales-magno-boots?sb=all_mercadolibre#D[A:botas%20industriales%20magno%20boots]',
+    mercadoLibre: 'https://www.mercadolibre.com.mx/pagina/mb4',
     flamundial: 'https://flamundial.com/collections/magno-boots?srsltid=AfmBOorkg21CxJ8XW5ULl4A9ANhBGpXce67o-ZSh6hK1SOEV4N8Ss91u',
     guicom: 'https://guicom.com.mx/producto-tag/magno-boots'
   },
