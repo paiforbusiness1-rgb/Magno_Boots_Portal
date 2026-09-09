@@ -180,21 +180,21 @@ export const LiveChatWidget: React.FC<LiveChatWidgetProps> = ({
     <>
       {/* Floating Chat Trigger Button */}
       {!isOpen && (
-        <div className="fixed bottom-6 right-6 z-40 flex items-center gap-2">
+        <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex items-center gap-2">
           {/* Teaser Bubble — único botón de apertura */}
           <div
             onClick={handleOpenChat}
-            className="relative flex items-center gap-2.5 bg-zinc-900 border border-[#F36C21]/40 text-white px-4 py-2.5 rounded-2xl shadow-2xl cursor-pointer hover:border-[#F36C21] hover:bg-zinc-800 transition-all transform hover:-translate-y-0.5"
+            className="relative flex items-center gap-2 sm:gap-2.5 bg-zinc-900 border border-[#F36C21]/40 text-white px-3 sm:px-4 py-2 sm:py-2.5 rounded-2xl shadow-2xl cursor-pointer hover:border-[#F36C21] hover:bg-zinc-800 transition-all transform hover:-translate-y-0.5 max-w-[calc(100vw-6rem)] sm:max-w-none"
           >
             <div className="relative shrink-0">
               <div className="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-ping absolute -top-0.5 -right-0.5"></div>
               <div className="w-2.5 h-2.5 bg-emerald-500 rounded-full"></div>
             </div>
-            <div className="text-left">
-              <p className="text-[11px] font-bold text-white leading-tight">
+            <div className="text-left truncate">
+              <p className="text-[11px] font-bold text-white leading-tight truncate">
                 Asesor Magno Boots
               </p>
-              <p className="text-[10px] text-zinc-400">¿Dudas sobre tallas o mayoreo?</p>
+              <p className="text-[10px] text-zinc-400 truncate">¿Dudas sobre tallas o mayoreo?</p>
             </div>
             {hasUnread && (
               <span className="absolute -top-1.5 -right-1.5 w-4 h-4 bg-amber-400 text-zinc-950 font-black text-[10px] rounded-full flex items-center justify-center shadow-lg animate-pulse">
@@ -207,7 +207,7 @@ export const LiveChatWidget: React.FC<LiveChatWidgetProps> = ({
 
       {/* Chat Window Box */}
       {isOpen && (
-        <div className="fixed bottom-4 right-4 sm:right-6 z-50 w-[calc(100vw-2rem)] sm:w-96 h-[520px] max-h-[85vh] bg-zinc-900 border border-zinc-700/80 rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in slide-in-from-bottom-5 duration-200">
+        <div className="fixed bottom-3 right-3 sm:bottom-4 sm:right-6 z-50 w-[calc(100vw-1.5rem)] sm:w-96 h-[520px] max-h-[85vh] bg-zinc-900 border border-zinc-700/80 rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in slide-in-from-bottom-5 duration-200">
           {/* Header */}
           <div className="bg-zinc-950 p-4 border-b border-zinc-800 flex items-center justify-between relative">
             <div className="flex items-center gap-3">

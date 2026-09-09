@@ -34,7 +34,7 @@ export const BackToTop: React.FC = () => {
       onClick={scrollToTop}
       id="btn-back-to-top"
       aria-label={t.footer.backToTop || 'Volver arriba'}
-      className={`fixed bottom-22 right-6 z-40 p-3 rounded-full bg-zinc-900/90 hover:bg-[#F36C21] text-zinc-300 hover:text-white border border-zinc-700/80 hover:border-[#F36C21] shadow-2xl backdrop-blur-md transition-all duration-300 transform flex items-center justify-center group cursor-pointer ${
+      className={`fixed bottom-20 right-4 sm:bottom-22 sm:right-6 z-40 p-3 rounded-full bg-zinc-900/90 hover:bg-[#F36C21] text-zinc-300 hover:text-white border border-zinc-700/80 hover:border-[#F36C21] shadow-2xl backdrop-blur-md transition-all duration-300 transform flex items-center justify-center group cursor-pointer ${
         isVisible
           ? 'opacity-100 translate-y-0 scale-100 pointer-events-auto'
           : 'opacity-0 translate-y-4 scale-90 pointer-events-none'

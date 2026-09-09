@@ -125,7 +125,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal, onExploreProducts 
                 src={heroBootImg}
                 alt="Magno Boots Bota Industrial"
                 referrerPolicy="no-referrer"
-                className="w-full h-[400px] sm:h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-[300px] sm:h-[400px] lg:h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent" />
 
@@ -148,13 +148,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal, onExploreProducts 
         </div>
 
         {/* Stats Bar */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 p-6 rounded-2xl bg-zinc-900/90 border border-zinc-800 shadow-xl">
+        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 p-4 sm:p-6 rounded-2xl bg-zinc-900/90 border border-zinc-800 shadow-xl">
           {COMPANY_INFO.stats.map((stat, idx) => (
-            <div key={idx} className="text-center p-2 border-r last:border-r-0 border-zinc-800">
-              <div className="text-2xl sm:text-3xl font-black text-[#FFB400] font-mono">
+            <div key={idx} className="text-center p-2 border-r border-zinc-800 last:border-r-0 md:last:border-r-0 [&:nth-child(2)]:border-r-0 md:[&:nth-child(2)]:border-r">
+              <div className="text-xl sm:text-3xl font-black text-[#FFB400] font-mono">
                 {stat.value}
               </div>
-              <div className="text-xs font-medium text-zinc-400 mt-1">
+              <div className="text-[11px] sm:text-xs font-medium text-zinc-400 mt-1">
                 {stat.label}
               </div>
             </div>
