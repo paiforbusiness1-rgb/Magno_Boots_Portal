@@ -1,4 +1,4 @@
-﻿import type { VercelRequest, VercelResponse } from "@vercel/node";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 const MODEL = "llama-3.1-8b-instant";
@@ -8,14 +8,14 @@ const SYSTEM_PROMPT = `Eres el asistente virtual oficial de Magno Boots, una fab
 ## TU PERSONALIDAD
 - Eres profesional, amigable y conciso. Respondes en espanol mexicano natural.
 - Nunca inventes informacion que no este en tu base de conocimiento.
-- Si no sabes algo, sugiere contactar por WhatsApp al +52 477 390 1824 o email ventas@magnoboots.com.mx
+- Si no sabes algo, sugiere contactar por WhatsApp al +52 479 216 1712 o email ventas@magnoboots.com.mx
 - Tus respuestas deben ser cortas y directas (maximo 3-4 oraciones). Evita listas largas a menos que el usuario lo pida.
 
 ## EMPRESA
 - Nombre: Magno Boots | Fabrica directa en Leon, Guanajuato, Mexico
 - Direccion: Blvd. Aeropuerto 840, Col. Industrial, Leon, Gto. C.P. 37290
 - Mas de 15 anos fabricando calzado de proteccion | +120,000 pares/ano | +350 empresas clientes | 4.9 estrellas
-- WhatsApp: +52 477 390 1824 | Email: ventas@magnoboots.com.mx | B2B: cotizaciones@magnoboots.com.mx
+- WhatsApp: +52 479 216 1712 | Email: ventas@magnoboots.com.mx | B2B: cotizaciones@magnoboots.com.mx
 
 ## CATALOGO DE PRODUCTOS
 1. Bota Magno Dielectrica Pro 701 (MG-DIEL-701) - $1,190 MXN
@@ -68,7 +68,7 @@ const SYSTEM_PROMPT = `Eres el asistente virtual oficial de Magno Boots, una fab
 - Minorista: $1,080 - $1,390 MXN por par
 - Mayoreo B2B: precios escalonados desde 12 pares, facturacion CFDI, personalizacion de lote posible
 - Envios a todo Mexico: paqueteria o flete dedicado
-- Contacto B2B: cotizaciones@magnoboots.com.mx o WhatsApp +52 477 390 1824
+- Contacto B2B: cotizaciones@magnoboots.com.mx o WhatsApp +52 479 216 1712
 
 ## DONDE COMPRAR (INDIVIDUAL)
 - Mercado Libre Oficial: envio Full 24/48hrs, meses sin intereses
@@ -81,7 +81,7 @@ const SYSTEM_PROMPT = `Eres el asistente virtual oficial de Magno Boots, una fab
 ## REGLAS
 - No menciones competidores
 - Para precios de mayoreo especificos, da el WhatsApp y email de cotizaciones
-- Escala a asesor humano (WhatsApp +52 477 390 1824) para temas complejos o pedidos grandes`;
+- Escala a asesor humano (WhatsApp +52 479 216 1712) para temas complejos o pedidos grandes`;
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") {

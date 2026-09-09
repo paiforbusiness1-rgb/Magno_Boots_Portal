@@ -126,7 +126,7 @@ export const LiveChatWidget: React.FC<LiveChatWidgetProps> = ({
       const data = await response.json() as { reply?: string; error?: string };
       const replyText =
         data.reply ??
-        'Lo siento, no pude procesar tu consulta. Por favor contáctanos por WhatsApp al +52 477 390 1824.';
+        'Lo siento, no pude procesar tu consulta. Por favor contáctanos por WhatsApp al +52 479 216 1712.';
 
       setChatHistory([...updatedHistory, { role: 'assistant', content: replyText }]);
 
@@ -149,7 +149,7 @@ export const LiveChatWidget: React.FC<LiveChatWidgetProps> = ({
         {
           id: Date.now().toString(),
           sender: 'agent',
-          text: 'Hubo un problema al conectar con el asistente. Por favor contáctanos directamente por WhatsApp al +52 477 390 1824.',
+          text: 'Hubo un problema al conectar con el asistente. Por favor contáctanos directamente por WhatsApp al +52 479 216 1712.',
           timestamp: getCurrentTime(),
           quickActions: [{ label: '💬 WhatsApp Directo', action: 'whatsapp' }],
         },
