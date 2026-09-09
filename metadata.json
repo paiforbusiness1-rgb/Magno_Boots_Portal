@@ -1,0 +1,6 @@
+{
+  "name": "Magno Boots - Calzado Industrial",
+  "description": "Landing page oficial y catálogo interactivo de Magno Boots, fabricante mexicano de botas de seguridad e industriales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
